@@ -1,61 +1,12 @@
-header{
-    text-align: center;
-    color: red;
-    border:solid black 3px;
-    background-color: lightblue;
-    text-transform: uppercase;
-    font-family: sans-serif;
-}
-
-.container{
-    text-align: center;
-    font-style: italic;
-    background-color: black;
-    background-size: cover;
-}
-
-.container p{
-    color: aliceblue;
-}
-
-.grid-section ul{
-    
-    list-style: none;
-    
-    position: relative;
-    right: 0%;
-    top: 0;
-}
-
-.grid-section li img{
-    width: auto;
-    height: 16rem;
-    display: flex;
-    justify-content: space-evenly;
-    float: left;
-    margin-left: 10px;
-    margin-right: 10px;
-    border-radius: 5px;
-    padding-left:12px;
-    padding-right:2px ;
-}
-
-
-.responsive{
-    border: solid 2px black;
+*{
     box-sizing: border-box;
-    position: relative;
-    margin-bottom: 0px;
 }
-.responsive h3{
-    font-size: 60px;
-    text-align: center;
-    color: blue;
-    text-decoration-style: dashed;
-}
-.responsive h6{
-    text-align: center;
-    font-size: larger;
-    padding-top: 0px;
+.Header-content
+{
+    color: red;
+    text-align: left;
+    font-weight: bolder;
+    padding-left: 2em;
     
 }
+
