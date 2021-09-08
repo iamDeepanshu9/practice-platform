@@ -4,9 +4,55 @@
 .Header-content
 {
     color: red;
-    text-align: left;
+    text-align: center;
     font-weight: bolder;
     padding-left: 2em;
     
 }
 
+.box-1{
+    width: 400px;
+    height: 500px;
+    border: 1px solid black;
+    background-color:#f01f21;
+    border-radius: 15%;
+}
+
+.box-2{
+    width: 400px;
+    height: 500px;
+    align-items: center;
+    
+}
+.button-section
+{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    margin-top:center;
+    
+    justify-content: space-between;
+}
+li{
+    padding: 4em 4em 4em 4em ;
+    
+}
+a:hover circle { fill: #00B2FF; }
+
+.box-3{
+    width: 400px;
+    height: 500px;
+    border: 1px solid black;
+    background-color: brown;
+    border-radius: 15%;
+}
+
+.floated
+{
+    float: left;
+    justify-content:center;
+    display: flex;
+    width: 100%;
+    text-align: center;
+    color: white;    
+}
