@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    
 }
 .Header-content
 {
@@ -14,7 +15,13 @@
     width: 400px;
     height: 500px;
     border: 1px solid black;
-    background-color:#f01f21;
+    background: repeating-linear-gradient(
+      45deg,
+      yellow 0px,
+      yellow 40px,
+      black 40px,
+      black 80px
+    );
     border-radius: 15%;
 }
 
@@ -43,7 +50,13 @@ a:hover circle { fill: #00B2FF; }
     width: 400px;
     height: 500px;
     border: 1px solid black;
-    background-color: brown;
+    background: repeating-linear-gradient(
+      45deg,
+      yellow 0px,
+      yellow 40px,
+      black 40px,
+      black 80px
+    );
     border-radius: 15%;
 }
 
@@ -55,4 +68,18 @@ a:hover circle { fill: #00B2FF; }
     width: 100%;
     text-align: center;
     color: white;    
+}
+
+footer{
+    position: fixed;
+    bottom: 0px;;
+    text-align: center;
+    padding-top: 64px!important;
+    padding-bottom: 64px!important;
+}
+.credit p{
+    margin: auto;
+}
+#endline{
+    box-sizing: inherit;
 }
